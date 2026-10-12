@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Workforce 2030</title>
+    <link rel="icon" type="image/png" href="./images/Workforce-logo.png" />
+
+    <meta
+      name="description"
+      content="Discover how AI helps HR teams and businesses improve hiring, employee experience, and productivity."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Nunito:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <button
+      class="invitation-float-btn"
+      type="button"
+      data-bs-toggle="modal"
+      data-bs-target="#invitationModal"
+    >
+      <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+      Request Invitation
+    </button>
+
+    <main>
+      <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-light nav-animate">
+          <div class="container">
+            <a
+              class="navbar-brand"
+              href="./index.html"
+              aria-label="Workforce 2030 home"
+            >
+              <img
+                src="./images/Workforce-logo.png"
+                alt=""
+                class="navbar-logo"
+              />
+              <span class="navbar-logo-divider" aria-hidden="true"></span>
+              <img src="./images/Zenith Nexus Logo.png" alt="" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNav"
+              aria-controls="mainNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+              <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./insight.html">Insight</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about-us.html">About Us</a>
+                </li>
+              </ul>
+
+              <!-- <div class="nav-chip-wrap">
+                <a href="#contact" class="btn btn-primary ms-lg-3">
+                  Book a Demo
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section class="moment-section" id="benefits">
+        <div class="container">
+          <div class="moment-card">
+            <!-- Decorative wave inside the card -->
+
+            <div class="moment-image-wrap">
+              <img
+                src="./images/work.png"
+                alt="AI-powered technology and global connectivity"
+                class="moment-image"
+              />
+            </div>
+
+            <div class="moment-content">
+              <div class="moment-topline">
+                <span class="moment-eyebrow"> A NEW ERA AHEAD </span>
+              </div>
+
+              <h2>The Next Frontier</h2>
+
+              <div class="moment-heading-line"></div>
+
+              <p class="moment-description">
+                Technology landscape is evolving rapidly, ushering in an era of
+                disruptive changes. The leaders will be defined by the agility
+                and perseverance with which they adapt to and adopt new
+                innovative technologies, supported by new sources of streamlined
+                and efficient processes, riding high in the vehement wave of
+                automation and engagement, and innate ability to reskill their
+                workforce for what comes next...
+              </p>
+
+              <div class="moment-footer">
+                <div class="moment-status-dot">
+                  <span></span>
+                </div>
+
+                <span>PEOPLE</span>
+                <b>·</b>
+                <span>PROCESS</span>
+                <b>·</b>
+                <span>PROGRESS</span>
+
+                <div class="moment-footer-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="agenda-section" id="agenda">
+        <!-- <div class="container">
+          <header class="agenda-header">
+            <span class="agenda-heading-rule"></span>
+            <h2>AGENDA</h2>
+            <p>Two focused days. Bigger conversations. Real outcomes.</p>
+          </header> -->
+
+          <!-- Agenda day cards are on hold until the agenda is finalized.
+          <div class="agenda-days">
+            <article class="agenda-day-card">
+              <div class="agenda-day-content">
+                <span class="agenda-day-label">DAY 1</span>
+                <h3>Designing the <span>Agentic Enterprise</span></h3>
+                <span class="agenda-card-rule"></span>
+                <p>
+                  Exploring how organizations are restructuring work, teams,
+                  leadership and productivity around AI agents.
+                </p>
+              </div>
+
+              <div
+                class="agenda-illustration agenda-illustration-ai"
+                aria-hidden="true"
+              >
+                <span class="agenda-illustration-orbit"></span>
+                <i class="fa-solid fa-microchip"></i>
+                <span class="agenda-ai-label">AI</span>
+              </div>
+
+              <div class="agenda-topics">
+                <div class="agenda-topic">
+                  <i class="fa-solid fa-people-arrows" aria-hidden="true"></i>
+                  <span>Work<br />Redesign</span>
+                </div>
+                <div class="agenda-topic">
+                  <i class="fa-solid fa-gear" aria-hidden="true"></i>
+                  <span>Team<br />Structures</span>
+                </div>
+                <div class="agenda-topic">
+                  <i class="fa-solid fa-chart-column" aria-hidden="true"></i>
+                  <span>Leadership<br />&amp; Productivity</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="agenda-day-card">
+              <div class="agenda-day-content">
+                <span class="agenda-day-label">DAY 2</span>
+                <h3>Governing the <span>Agentic Workforce</span></h3>
+                <span class="agenda-card-rule"></span>
+                <p>
+                  Examining the policies, governance frameworks, workforce
+                  strategies and accountability models required to scale AI
+                  responsibly.
+                </p>
+              </div>
+
+              <div
+                class="agenda-illustration agenda-illustration-governance"
+                aria-hidden="true"
+              >
+                <span class="agenda-illustration-orbit"></span>
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+
+              <div class="agenda-topics">
+                <div class="agenda-topic">
+                  <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                  <span>Policies &amp;<br />Governance</span>
+                </div>
+                <div class="agenda-topic">
+                  <i class="fa-solid fa-users" aria-hidden="true"></i>
+                  <span>Workforce<br />Strategies</span>
+                </div>
+                <div class="agenda-topic">
+                  <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                  <span>Accountability<br />&amp; Responsible AI</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          -->
+
+          <!-- <div class="agenda-download-wrap">
+            <a
+              class="agenda-download"
+              href="#contact-form"
+              aria-label="Request the Workforce 2030 agenda"
+            >
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              <span>Click to <strong>DOWNLOAD THE AGENDA</strong></span>
+              <span class="agenda-download-arrow" aria-hidden="true">
+                <i class="fa-solid fa-chevron-right"></i>
+              </span>
+            </a>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="event-objectives-section" id="event-objectives">
+        <div class="container">
+          <div class="event-objectives-wrapper">
+            <!-- LEFT SIDE -->
+            <div class="event-objectives-intro">
+              <div class="objectives-label">
+                <span></span>
+                PEOPLE + IDEAS + PROGRESS
+              </div>
+
+              <h2>
+                EVENT
+                <span>OBJECTIVES</span>
+              </h2>
+
+              <div class="objectives-line"></div>
+
+              <p class="objectives-tagline">
+                Driving a smarter, more human-centric tomorrow.
+              </p>
+
+              <div class="objectives-keywords">
+                <span>IDEAS</span>
+                <span>PEOPLE</span>
+                <span>TECHNOLOGY</span>
+                <span>IMPACT</span>
+              </div>
+
+              <div class="objectives-visual" aria-hidden="true">
+                <img src="./images/mmmmmm.png" alt="" />
+              </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="event-objectives-list">
+              <!-- OBJECTIVE 01 -->
+              <article class="objective-item">
+                <div class="objective-number">01</div>
+
+                <div class="objective-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>EXPLORE</h3>
+
+                  <p>How AI is transforming the workforce across industries.</p>
+                </div>
+              </article>
+
+              <!-- OBJECTIVE 02 -->
+              <article class="objective-item">
+                <div class="objective-number">02</div>
+
+                <div class="objective-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>EMPOWER</h3>
+
+                  <p>
+                    Leaders with strategies for AI adoption and workforce
+                    transformation.
+                  </p>
+                </div>
+              </article>
+
+              <!-- OBJECTIVE 03 -->
+              <article class="objective-item">
+                <div class="objective-number">03</div>
+
+                <div class="objective-icon">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>ACCELERATE</h3>
+
+                  <p>Enterprise readiness for AI-Augmented operations.</p>
+                </div>
+              </article>
+
+              <!-- OBJECTIVE 04 -->
+              <article class="objective-item">
+                <div class="objective-number">04</div>
+
+                <div class="objective-icon">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>CONNECT</h3>
+
+                  <p>Government, enterprise and technology ecosystems.</p>
+                </div>
+              </article>
+
+              <!-- OBJECTIVE 05 -->
+              <article class="objective-item">
+                <div class="objective-number">05</div>
+
+                <div class="objective-icon">
+                  <i class="fa-regular fa-lightbulb"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>INSPIRE</h3>
+
+                  <p>A new vision for human-AI collaboration.</p>
+                </div>
+              </article>
+
+              <!-- OBJECTIVE 06 -->
+              <article class="objective-item">
+                <div class="objective-number">06</div>
+
+                <div class="objective-icon">
+                  <i class="fa-solid fa-chart-column"></i>
+                </div>
+
+                <div class="objective-content">
+                  <h3>BUILD</h3>
+
+                  <p>
+                    The workforce strategies that will define 2030 and beyond.
+                  </p>
+                </div>
+              </article>
+
+              <!-- BOTTOM MESSAGE -->
+              <div class="objectives-bottom">
+                <span></span>
+
+                <p>A MORE HUMAN. MORE INTELLIGENT TOMORROW.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="container">
+          <div class="faq-layout">
+            <div class="faq-intro">
+              <span class="faq-eyebrow">10. FAQ</span>
+              <h2>Before you <span>book.</span></h2>
+              <p>
+                A few helpful details about joining Workforce 2030 in Dubai.
+              </p>
+              <a class="faq-contact-link" href="#contact-form">
+                Still have questions?
+                <span
+                  >Talk to our team
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+                ></span>
+              </a>
+              <div class="faq-illustration" aria-hidden="true">
+                <span class="faq-illustration-dots"></span>
+                <span class="faq-chat-bubble faq-chat-bubble-back">
+                  <i></i><i></i><i></i>
+                </span>
+                <span class="faq-chat-bubble faq-chat-bubble-front">?</span>
+              </div>
+            </div>
+
+            <div class="accordion faq-accordion" id="workforceFaq">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faq-heading-one">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-answer-one"
+                    aria-expanded="true"
+                    aria-controls="faq-answer-one"
+                  >
+                    <span class="faq-question-number" aria-hidden="true"
+                      >01</span
+                    >
+                    <span
+                      class="faq-question-divider"
+                      aria-hidden="true"
+                    ></span>
+                    Is Workforce 2030 only for HR leaders?
+                  </button>
+                </h3>
+                <div
+                  id="faq-answer-one"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="faq-heading-one"
+                  data-bs-parent="#workforceFaq"
+                >
+                  <div class="accordion-body">
+                    No. The agenda is built for six distinct audiences: HR and
+                    workforce leaders, technology leaders, government and policy
+                    leaders, AI vendors, workplace, real estate and insurance
+                    leaders, and investors. See
+                    <a href="#who-participate">Who's Joining Us</a> for the full
+                    audience profile.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faq-heading-two">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-answer-two"
+                    aria-expanded="false"
+                    aria-controls="faq-answer-two"
+                  >
+                    <span class="faq-question-number" aria-hidden="true"
+                      >02</span
+                    >
+                    <span
+                      class="faq-question-divider"
+                      aria-hidden="true"
+                    ></span>
+                    Can I sponsor a single session rather than the whole event?
+                  </button>
+                </h3>
+                <div
+                  id="faq-answer-two"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faq-heading-two"
+                  data-bs-parent="#workforceFaq"
+                >
+                  <div class="accordion-body">
+                    Yes. Sponsorship is structured around individual formats:
+                    the Meet the New Colleague solo slot, a panel seat, or the
+                    LeadHer.
+                    <a href="./request-invitation.html"
+                      >Request the prospectus</a
+                    >
+                    for full details.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faq-heading-three">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-answer-three"
+                    aria-expanded="false"
+                    aria-controls="faq-answer-three"
+                  >
+                    <span class="faq-question-number" aria-hidden="true"
+                      >03</span
+                    >
+                    <span
+                      class="faq-question-divider"
+                      aria-hidden="true"
+                    ></span>
+                    Is there a virtual attendance option?
+                  </button>
+                </h3>
+                <div
+                  id="faq-answer-three"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faq-heading-three"
+                  data-bs-parent="#workforceFaq"
+                >
+                  <div class="accordion-body">
+                    Workforce 2030 is designed as an in-person, single-track
+                    forum to preserve the closed-door, off-the-record quality of
+                    its discussions. Selected keynote content may be made
+                    available after the event; ask your delegate contact for
+                    details.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faq-heading-four">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-answer-four"
+                    aria-expanded="false"
+                    aria-controls="faq-answer-four"
+                  >
+                    <span class="faq-question-number" aria-hidden="true"
+                      >04</span
+                    >
+                    <span
+                      class="faq-question-divider"
+                      aria-hidden="true"
+                    ></span>
+                    What language are the sessions conducted in?
+                  </button>
+                </h3>
+                <div
+                  id="faq-answer-four"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faq-heading-four"
+                  data-bs-parent="#workforceFaq"
+                >
+                  <div class="accordion-body">
+                    All keynotes, panels, and fireside chats are conducted in
+                    English.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faq-heading-five">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-answer-five"
+                    aria-expanded="false"
+                    aria-controls="faq-answer-five"
+                  >
+                    <span class="faq-question-number" aria-hidden="true"
+                      >05</span
+                    >
+                    <span
+                      class="faq-question-divider"
+                      aria-hidden="true"
+                    ></span>
+                    How many delegates will be in the room?
+                  </button>
+                </h3>
+                <div
+                  id="faq-answer-five"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="faq-heading-five"
+                  data-bs-parent="#workforceFaq"
+                >
+                  <div class="accordion-body">
+                    Workforce 2030 is capped at 200 senior delegates. The
+                    deliberately intimate format keeps the conversation working
+                    rather than performative.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pre-footer-enquiries" aria-labelledby="enquiries-title">
+        <div class="enquiries-event-banner">
+          <div class="enquiries-banner-content">
+            <h2 id="enquiries-title">
+              Workforce 2030: AI-Augmented Enterprises
+            </h2>
+            <span class="enquiries-banner-rule" aria-hidden="true"></span>
+            <div class="enquiries-event-details">
+            
+              <span>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                Dubai, UAE
+              </span>
+              <span>
+                <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                January 2027
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container enquiries-content">
+          <div class="enquiries-grid">
+            <article class="enquiry-card">
+              <span class="enquiry-card-rule" aria-hidden="true"></span>
+              <span class="enquiry-icon" aria-hidden="true">
+                <i class="fa-regular fa-handshake"></i>
+              </span>
+              <h3>Sponsorship Enquiries:</h3>
+              <span class="enquiry-heading-rule" aria-hidden="true"></span>
+              <div class="enquiry-contact-list">
+                <p>
+                  <i class="fa-regular fa-user" aria-hidden="true"></i>
+                  <span>Malik Raihan</span>
+                </p>
+                <p>
+                  <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+                  <a href="tel:+971552893299">+971 55 289 3299</a>
+                </p>
+                <p>
+                  <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                  <a href="mailto:mohammed@zenithnexus.com"
+                    >mohammed@zenithnexus.com</a
+                  >
+                </p>
+              </div>
+            </article>
+
+            <article class="enquiry-card">
+              <span class="enquiry-card-rule" aria-hidden="true"></span>
+              <span class="enquiry-icon" aria-hidden="true">
+                <i class="fa-regular fa-comments"></i>
+              </span>
+              <h3>Speaking Enquiries:</h3>
+              <span class="enquiry-heading-rule" aria-hidden="true"></span>
+              <div class="enquiry-contact-list">
+                <p>
+                  <i class="fa-regular fa-user" aria-hidden="true"></i>
+                  <span>Gazala Arshiya</span>
+                </p>
+                <p>
+                  <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                  <a href="mailto:gazala@zenithnexus.com"
+                    >gazala@zenithnexus.com</a
+                  >
+                </p>
+              </div>
+            </article>
+
+            <article class="enquiry-card">
+              <span class="enquiry-card-rule" aria-hidden="true"></span>
+              <span class="enquiry-icon" aria-hidden="true">
+                <i class="fa-solid fa-bullhorn"></i>
+              </span>
+              <h3>Media &amp; Marketing Enquiries:</h3>
+              <span class="enquiry-heading-rule" aria-hidden="true"></span>
+              <div class="enquiry-contact-list">
+                <p>
+                  <i class="fa-regular fa-user" aria-hidden="true"></i>
+                  <span>Joanna D’Mello</span>
+                </p>
+                <p>
+                  <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                  <a href="mailto:joanna@zenithnexus.com"
+                    >joanna@zenithnexus.com</a
+                  >
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="enquiries-ip-line">
+            <span aria-hidden="true"></span>
+            <p>A Zenith Nexus Original IP</p>
+            <span aria-hidden="true"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="modal fade invitation-modal"
+      id="invitationModal"
+      tabindex="-1"
+      aria-labelledby="invitationModalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content invitation-modal-content">
+          <div class="modal-header invitation-modal-header">
+            <div>
+              <span class="invitation-modal-kicker">WORKFORCE 2030</span>
+              <h2 class="modal-title" id="invitationModalTitle">
+                REQUEST INVITATION
+              </h2>
+              <span class="invitation-title-rule" aria-hidden="true"></span>
+              <p>
+                Submit your details for invitation consideration to Workforce
+                2030, an executive forum on AI-augmented enterprises.
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn-close invitation-modal-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body invitation-modal-body">
+            <form id="invitationRequestForm" class="invitation-form">
+              <div class="invitation-form-grid">
+                <div class="invitation-form-field">
+                  <label for="invitationFirstName">First Name*</label>
+                  <input
+                    id="invitationFirstName"
+                    name="firstName"
+                    autocomplete="given-name"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationLastName">Last Name*</label>
+                  <input
+                    id="invitationLastName"
+                    name="lastName"
+                    autocomplete="family-name"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationEmail">Business Email*</label>
+                  <input
+                    id="invitationEmail"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationMobile">Mobile Number*</label>
+                  <input
+                    id="invitationMobile"
+                    name="mobile"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationJobTitle">Job Title*</label>
+                  <input
+                    id="invitationJobTitle"
+                    name="jobTitle"
+                    autocomplete="organization-title"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationCompany">Company / Organisation*</label>
+                  <input
+                    id="invitationCompany"
+                    name="company"
+                    autocomplete="organization"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationCountry">Country*</label>
+                  <input
+                    id="invitationCountry"
+                    name="country"
+                    autocomplete="country-name"
+                    required
+                  />
+                </div>
+                <div class="invitation-form-field">
+                  <label for="invitationOrganisationType"
+                    >Organisation Type*</label
+                  >
+                  <select
+                    id="invitationOrganisationType"
+                    name="organisationType"
+                    required
+                  >
+                    <option value="" selected disabled>Select</option>
+                    <option value="enterprise">Enterprise</option>
+                    <option value="government">Government</option>
+                    <option value="technology-provider">
+                      Technology Provider
+                    </option>
+                    <option value="consulting">Consulting / Advisory</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="invitation-form-field invitation-message-field">
+                <label for="invitationMessage"
+                  >Message / Area of Interest</label
+                >
+                <textarea
+                  id="invitationMessage"
+                  name="message"
+                  rows="3"
+                  placeholder="Tell us whether you are interested in attending, partnering, sponsorship, speaking, or a private discussion."
+                ></textarea>
+              </div>
+              <label class="invitation-consent" for="invitationConsent">
+                <input
+                  id="invitationConsent"
+                  name="consent"
+                  type="checkbox"
+                  required
+                />
+                <span
+                  >I agree to be contacted by Zenith Nexus regarding Workforce
+                  2030.</span
+                >
+              </label>
+              <p
+                class="invitation-form-status"
+                id="invitationFormStatus"
+                role="status"
+                aria-live="polite"
+                hidden
+              ></p>
+              <button class="invitation-submit-btn" type="submit">
+                SUBMIT INVITATION REQUEST
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+              <p class="invitation-form-note">
+                Your information will be used to review your invitation request.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-cta-bar">
+          <div>
+            <span>Start your AI workforce transformation</span>
+            <strong>Book a conversation with our team today.</strong>
+          </div>
+
+          <a href="#contact-form" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="./images/Zenith Nexus Logo.png" alt="Zenith Nexus Logo" />
+            <p>
+              AI-powered solutions designed to help enterprises transform their
+              people, processes, and performance.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <div>
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="#who-participate">Participants</a></li>
+                <li><a href="#global-series">Global Series</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-newsletter">
+            <h4>Stay Updated</h4>
+
+            <div class="social-links">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="X"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Zenith Nexus. All rights reserved.</p>
+          <div class="footer-meta">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+      const backToTopButton = document.getElementById("backToTop");
+
+      const toggleBackToTop = () => {
+        if (window.scrollY > 300) {
+          backToTopButton.classList.add("is-visible");
+        } else {
+          backToTopButton.classList.remove("is-visible");
+        }
+      };
+
+      window.addEventListener("scroll", toggleBackToTop);
+
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      const invitationRequestForm = document.getElementById(
+        "invitationRequestForm",
+      );
+      const invitationFormStatus = document.getElementById(
+        "invitationFormStatus",
+      );
+
+      invitationRequestForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        invitationFormStatus.textContent =
+          "Invitation requests are not connected to a submission service yet.";
+        invitationFormStatus.hidden = false;
+      });
+    </script>
+  </body>
+</html>
