@@ -3819,7 +3819,7 @@ main section.faq-section {
 
   .why-uae-visual,
   .why-uae-visual img {
-    min-height: 570px;
+    /* min-height: 570px; */
   }
 
   .why-uae-heading {
@@ -3860,7 +3860,7 @@ main section.faq-section {
 
   .why-uae-visual img {
     min-height: auto;
-    max-height: 700px;
+    /* max-height: 700px; */
   }
 
   .why-uae-content {
@@ -11580,7 +11580,7 @@ main section.participate-section {
   overflow: hidden;
 
   width: 100%;
-  min-height: 650px;
+  /* min-height: 650px; */
 
   z-index: 2;
 }
@@ -11590,7 +11590,7 @@ main section.participate-section {
 
   width: 100%;
   height: 100%;
-  min-height: 650px;
+  /* min-height: 650px; */
 
   object-fit: cover;
   object-position: center;
