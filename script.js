@@ -19,29 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const countdown = document.getElementById("heroCountdown");
   if (countdown) {
-    const countdownDuration = 60 * 24 * 60 * 60 * 1000;
-    const storageKey = "workforce2030-countdown-deadline";
-    let deadline;
-
-    try {
-      const storedDeadline = localStorage.getItem(storageKey);
-      const parsedDeadline = Number(storedDeadline);
-
-      if (storedDeadline !== null && Number.isFinite(parsedDeadline)) {
-        deadline = parsedDeadline;
-      } else {
-        if (storedDeadline !== null) {
-          console.warn("Invalid stored countdown deadline; starting a new 60-day countdown.");
-          localStorage.removeItem(storageKey);
-        }
-
-        deadline = Date.now() + countdownDuration;
-        localStorage.setItem(storageKey, String(deadline));
-      }
-    } catch (error) {
-      console.warn("Could not persist the countdown deadline in local storage.", error);
-      deadline = Date.now() + countdownDuration;
-    }
+    const eventDate = new Date(2027, 0, 1, 0, 0, 0);
+    const deadline = eventDate.getTime();
 
     const countdownParts = {
       days: countdown.querySelector("[data-countdown-days]"),
