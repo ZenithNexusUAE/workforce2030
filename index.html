@@ -131,18 +131,24 @@
                   <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./insight.html">Insight</a>
+                  <a class="nav-link" href="./insight.html">Insights</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./about-us.html">About Us</a>
                 </li>
               </ul>
 
-              <!-- <div class="nav-chip-wrap">
-                <a href="#contact" class="btn btn-primary ms-lg-3">
-                  Book a Demo
+              <nav class="hero-social-links" aria-label="Social media">
+                <a href="#" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                 </a>
-              </div> -->
+                <a
+                  href="https://www.linkedin.com/company/zenithnexus/?viewAsMember=true"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+              </nav>
             </div>
           </div>
         </nav>
@@ -178,8 +184,9 @@
                 </h1>
 
                 <p class="hero-description">
-                  The enterprise just got a new colleague. By 2030, AI will no
-                  longer be an experiment. It will be part of the workforce.
+                  <b>The enterprise just got a new colleague. </b><br />
+                  By 2030, AI will no longer be an experiment. It will be part
+                  of the workforce.
                 </p>
 
                 <div class="hero-actions" aria-label="Explore Workforce 2030">
@@ -196,7 +203,10 @@
                   >
                     Partner With Us
                   </a>
-                  <a href="#who-participate" class="hero-cta hero-cta-link">
+                  <a
+                    href="#who-participate"
+                    class="hero-cta hero-cta-link hero-cta-secondary"
+                  >
                     Who Attends
                     <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
                   </a>
@@ -297,39 +307,28 @@
                     </div>
                   </div>
                 </aside>
-                <nav class="hero-social-links" aria-label="Social media">
-                  <a href="#" aria-label="Instagram">
-                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/zenithnexus/?viewAsMember=true"
-                    aria-label="LinkedIn"
-                  >
-                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-                  </a>
-                </nav>
               </div>
             </div>
           </div>
 
           <div class="hero-stats" aria-label="Workforce 2030 at a glance">
             <div class="hero-stat">
-              <strong>500+</strong>
+              <strong data-count-value="500" data-count-suffix="+">500+</strong>
               <span>Global Leaders</span>
               <i aria-hidden="true"></i>
             </div>
             <div class="hero-stat">
-              <strong>100+</strong>
+              <strong data-count-value="100" data-count-suffix="+">100+</strong>
               <span>Expert Speakers</span>
               <i aria-hidden="true"></i>
             </div>
             <div class="hero-stat">
-              <strong>50+</strong>
+              <strong data-count-value="50" data-count-suffix="+">50+</strong>
               <span>Countries</span>
               <i aria-hidden="true"></i>
             </div>
             <div class="hero-stat">
-              <strong>∞</strong>
+              <strong class="infinity">∞</strong>
               <span>Possibilities</span>
               <i aria-hidden="true"></i>
             </div>
@@ -342,14 +341,14 @@
           <div class="why-uae-layout">
             <!-- RIGHT CONTENT -->
             <div class="why-uae-content">
-              <div class="why-uae-label">
+              <div class="why-uae-label gredient-font">
                 <span></span>
                 WHY THE UAE
               </div>
 
               <h2 class="why-uae-heading">
-                The UAE is not preparing for the future of work, it is building
-                it.
+                The UAE is not preparing for the future of work, it is
+                <span class="gradient-font">building it.</span>
               </h2>
 
               <div class="why-uae-points">
@@ -447,7 +446,9 @@
               <span></span>
               WHY THE FUTURE OF WORK MATTERS
             </div>
-            <h2 id="hybrid-workforce-title">The New Workforce Is Hybrid</h2>
+            <h2 id="hybrid-workforce-title">
+              The New Workforce <span class="gredient-font">Is Hybrid</span>
+            </h2>
             <p>
               Tomorrow’s teams will consist of a powerful combination of human
               capability, artificial intelligence, and meaningful collaboration.
@@ -521,18 +522,6 @@
             </div>
 
             <div class="hybrid-model-grid">
-              <svg
-                class="hybrid-model-route"
-                viewBox="0 0 1200 130"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-                <path
-                  d="M100 52 C150 52 150 84 200 84 S250 52 300 52 S350 84 400 84 S450 52 500 52 S550 84 600 84 S650 52 700 52 S750 84 800 84 S850 52 900 52 S950 84 1000 84 S1050 52 1100 52"
-                />
-                <path class="hybrid-model-route-arrow" d="m1092 45 10 7-10 7" />
-              </svg>
-
               <article class="hybrid-model-item hybrid-model-blue">
                 <span class="hybrid-model-icon"
                   ><i class="fa-solid fa-layer-group"></i
@@ -584,6 +573,7 @@
         <div class="container">
           <div class="participate-header">
             <p class="participate-subtitle">
+              <span></span>
               DIFFERENT PERSPECTIVES. A STRONGER TOMORROW.
             </p>
             <h2 class="participate-title">WHY <span>PARTICIPATE?</span></h2>
@@ -813,12 +803,12 @@
 
             <div class="attending-center">
               <div class="attending-orbit" aria-hidden="true">
-                <span class="attending-orbit-node attending-node-top"></span>
+                <!-- <span class="attending-orbit-node attending-node-top"></span>
                 <span class="attending-orbit-node attending-node-blue"></span>
                 <span class="attending-orbit-node attending-node-teal"></span>
                 <span class="attending-orbit-node attending-node-sky"></span>
                 <span class="attending-orbit-node attending-node-coral"></span>
-                <span class="attending-orbit-node attending-node-aqua"></span>
+                <span class="attending-orbit-node attending-node-aqua"></span> -->
               </div>
               <div class="attending-photo">
                 <img
@@ -886,17 +876,6 @@
           </div>
 
           <div class="themes-grid">
-            <svg
-              class="themes-route"
-              viewBox="0 0 1000 600"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <path
-                d="M97 38H903C950 38 970 58 970 85V291C970 318 950 338 903 338H97"
-              />
-              <path class="themes-route-arrow" d="m891 330 12 8-12 8" />
-            </svg>
             <article class="theme-route-item">
               <span class="theme-route-number">01</span>
               <span class="theme-route-icon"
@@ -1033,16 +1012,14 @@
             <div class="voices-stage-intro">
               <div class="voices-stage-eyebrow">
                 <span></span>
-                THE VOICES ON STAGE
+                THE VOICES ON
+                <div class="gredient-font">STAGE</div>
               </div>
-              <h2>The voices on stage.</h2>
+              <h2>The voices on <span class="gredient-font">STAGE</span></h2>
               <p>
                 The stage is reserved for practitioners, decision-makers and
                 leaders who are actively shaping how AI enters the workforce.
               </p>
-            </div>
-            <div class="voices-stage-image" aria-hidden="true">
-              <img src="./images/Futuristic AI Conference Panel.png" alt="" />
             </div>
           </div>
 
@@ -1185,48 +1162,11 @@
               </div>
             </article>
           </div>
-
-          <!-- <div class="voices-stage-ctas">
-            <a
-              class="voices-stage-cta voices-stage-cta-primary"
-              href="./request-invitation.html"
-            >
-              <span class="voices-cta-icon" aria-hidden="true">
-                <i class="fa-solid fa-microphone"></i>
-              </span>
-              <span class="voices-cta-copy">
-                <strong>Apply to Speak</strong>
-                <small>If you believe you can add to the conversation.</small>
-              </span>
-              <span class="voices-cta-arrow" aria-hidden="true">
-                <i class="fa-solid fa-arrow-right"></i>
-              </span>
-            </a>
-            <a
-              class="voices-stage-cta voices-stage-cta-secondary"
-              href="./request-invitation.html"
-            >
-              <span class="voices-cta-icon" aria-hidden="true">
-                <i class="fa-solid fa-users"></i>
-              </span>
-              <span class="voices-cta-copy">
-                <strong>Nominate a Speaker</strong>
-                <small
-                  >Nominate a subject-matter expert who belongs in this
-                  conversation.</small
-                >
-              </span>
-              <span class="voices-cta-arrow" aria-hidden="true">
-                <i class="fa-solid fa-arrow-right"></i>
-              </span>
-            </a>
-          </div> -->
         </div>
       </section>
 
       <section class="industries-section" id="industries">
         <div class="container">
-
           <div class="industries-header">
             <div class="industries-eyebrow">
               <span></span>
@@ -1246,8 +1186,6 @@
           </div>
 
           <div class="industries-grid">
-
-
             <article class="industry-card industry-bfsi">
               <div class="industry-card-info">
                 <div class="industry-top">
@@ -1269,7 +1207,6 @@
                 <img src="./images/bfsi.png" alt="Modern financial buildings" />
               </div>
             </article>
-
 
             <article class="industry-card industry-healthcare">
               <div class="industry-card-info">
@@ -1296,7 +1233,6 @@
               </div>
             </article>
 
-
             <article class="industry-card industry-energy">
               <div class="industry-card-info">
                 <div class="industry-top">
@@ -1321,7 +1257,6 @@
                 />
               </div>
             </article>
-
 
             <article class="industry-card industry-manufacturing">
               <div class="industry-card-info">
@@ -1348,7 +1283,6 @@
               </div>
             </article>
 
-
             <article class="industry-card industry-retail">
               <div class="industry-card-info">
                 <div class="industry-top">
@@ -1373,7 +1307,6 @@
                 />
               </div>
             </article>
-
 
             <article class="industry-card industry-logistics">
               <div class="industry-card-info">
@@ -1400,7 +1333,6 @@
               </div>
             </article>
 
-
             <article class="industry-card industry-telecom">
               <div class="industry-card-info">
                 <div class="industry-top">
@@ -1425,7 +1357,6 @@
                 />
               </div>
             </article>
-
 
             <article class="industry-card industry-education">
               <div class="industry-card-info">
@@ -1468,12 +1399,9 @@
             </div>
           </div>
 
-
           <section class="join-movement-section" id="contact">
             <div class="container">
               <div class="join-movement-grid">
-
-
                 <div class="join-movement-content">
                   <div class="join-movement-label">
                     <span></span>
@@ -1492,64 +1420,6 @@
                   </div>
 
                   <div class="join-movement-divider"></div>
-
-                  <h3>
-                    Future of Work:
-                    <span>AI-Augmented Enterprises</span>
-                  </h3>
-
-                  <p class="join-movement-description">
-                    Future of Work: AI-Augmented Enterprises brings together
-                    global leaders, innovators, and changemakers to explore how
-                    AI is shaping a more human, intelligent, and inclusive
-                    tomorrow.
-                  </p>
-
-                  <!-- EVENT DETAILS -->
-
-                  <div class="join-event-details">
-                    <div class="join-event-detail">
-                      <div class="join-detail-icon">
-                        <i class="fa-regular fa-calendar"></i>
-                      </div>
-
-                      <div>
-                        <strong>27-28 January 2027</strong>
-                      </div>
-                    </div>
-
-                    <div class="join-detail-separator"></div>
-
-                    <div class="join-event-detail">
-                      <div class="join-detail-icon">
-                        <i class="fa-solid fa-location-dot"></i>
-                      </div>
-
-                      <div>
-                        <strong> Dubai, UAE</strong>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- CTA -->
-
-                  <div class="join-movement-actions">
-                    <a
-                      href="./request-invitation.html"
-                      class="join-primary-btn"
-                    >
-                      Register Your Interest
-                      <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-
-                    <!-- <a href="#" class="join-video-btn">
-                      <span>
-                        <i class="fa-solid fa-play"></i>
-                      </span>
-
-                      Watch Event Video
-                    </a> -->
-                  </div>
                 </div>
 
                 <div class="why-attend-area">
@@ -1625,12 +1495,6 @@
                   </article>
                 </div>
               </div>
-
-              <div class="join-section-footer">
-                <span></span>
-
-                <p>A MORE HUMAN. MORE INTELLIGENT TOMORROW.</p>
-              </div>
             </div>
           </section>
         </div>
@@ -1645,7 +1509,7 @@
                 PARTNERS
               </div>
 
-              <h2>Become part of the conversation.</h2>
+              <h2>Become part of the <span>conversation.</span></h2>
 
               <p>
                 Whether you're building AI agents, workforce platforms, learning
@@ -1667,39 +1531,6 @@
               </p>
 
               <p>One conversation every leader will eventually need to have.</p>
-
-              <div class="partners-actions">
-                <div class="partners-action">
-                  <!-- <a
-                    class="partners-button partners-button-primary"
-                    href="./request-invitation.html"
-                  >
-                    <i class="fa-solid fa-bullhorn" aria-hidden="true"></i>
-                    Showcase Your Solution
-                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-                  </a> -->
-                  <p>
-                    Position your platform at the center of the workforce
-                    transformation conversation.
-                  </p>
-                </div>
-                <div class="partners-action">
-                  <!-- <a
-                    class="partners-button partners-button-secondary"
-                    href="#invitationModal"
-                    data-bs-toggle="modal"
-                    data-bs-target="#invitationModal"
-                  >
-                    <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
-                    Become a Partner
-                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-                  </a> -->
-                  <p>
-                    Join the organizations helping shape the future relationship
-                    between humans and AI.
-                  </p>
-                </div>
-              </div>
             </div>
 
             <div class="partners-visual">
@@ -1709,15 +1540,6 @@
                   alt="Business leaders exploring the future of work together"
                 />
               </div>
-
-              <svg
-                class="partners-network"
-                viewBox="0 0 620 300"
-                fill="none"
-                aria-hidden="true"
-              >
-                <path d="M52 225C85 105 184 37 310 33C438 29 535 101 570 222" />
-              </svg>
 
               <div class="partners-orbit-icon partners-orbit-icon-chart">
                 <i class="fa-solid fa-chart-column" aria-hidden="true"></i>
@@ -1782,7 +1604,7 @@
           <div class="global-platform-intro">
             <div class="global-platform-copy">
               <span class="global-platform-eyebrow">Global Platform</span>
-              <h2>One global platform. Regional impact.</h2>
+              <h2>One global platform. <span>Regional impact.</span></h2>
               <p>
                 Workforce 2030 explores how AI is reshaping work, leadership and
                 enterprise across different markets and economies.
@@ -1990,20 +1812,6 @@
               <p>
                 A few helpful details about joining Workforce 2030 in Dubai.
               </p>
-              <a class="faq-contact-link" href="#contact-form">
-                Still have questions?
-                <span
-                  >Talk to our team
-                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
-                ></span>
-              </a>
-              <div class="faq-illustration" aria-hidden="true">
-                <span class="faq-illustration-dots"></span>
-                <span class="faq-chat-bubble faq-chat-bubble-back">
-                  <i></i><i></i><i></i>
-                </span>
-                <span class="faq-chat-bubble faq-chat-bubble-front">?</span>
-              </div>
             </div>
 
             <div class="accordion faq-accordion" id="workforceFaq">
@@ -2193,7 +2001,8 @@
         <div class="enquiries-event-banner">
           <div class="enquiries-banner-content">
             <h2 id="enquiries-title">
-              Workforce 2030: AI-Augmented Enterprises
+              Workforce 2030: <br />
+              <span>AI-Augmented Enterprises</span>
             </h2>
             <span class="enquiries-banner-rule" aria-hidden="true"></span>
             <div class="enquiries-event-details">
@@ -2446,75 +2255,6 @@
         </div>
       </div>
     </div>
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-cta-bar">
-          <div>
-            <span>Start your AI workforce transformation</span>
-            <strong>Book a conversation with our team today.</strong>
-          </div>
-
-          <a href="#contact-form" class="btn btn-primary">Get Started</a>
-        </div>
-
-        <div class="footer-main">
-          <div class="footer-brand">
-            <img src="./images/Zenith Nexus Logo.png" alt="Zenith Nexus Logo" />
-            <p>
-              AI-powered solutions designed to help enterprises transform their
-              people, processes, and performance.
-            </p>
-          </div>
-
-          <div class="footer-links">
-            <div>
-              <h4>Company</h4>
-              <ul>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#industries">Industries</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4>Resources</h4>
-              <ul>
-                <li><a href="#themes">Themes</a></li>
-                <li><a href="#who-participate">Participants</a></li>
-                <li><a href="#global-series">Global Series</a></li>
-                <li><a href="#contact-form">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="footer-newsletter">
-            <h4>Stay Updated</h4>
-
-            <div class="social-links">
-              <a href="#" aria-label="LinkedIn"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-              <a href="#" aria-label="X"
-                ><i class="fa-brands fa-x-twitter"></i
-              ></a>
-              <a href="#" aria-label="Instagram"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-bottom">
-          <p>© 2026 Zenith Nexus. All rights reserved.</p>
-          <div class="footer-meta">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms</a>
-          </div>
-        </div>
-      </div>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
