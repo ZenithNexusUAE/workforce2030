@@ -2702,7 +2702,6 @@ main section.faq-section {
 .faq-intro {
   position: relative;
   padding: 40px 0 0;
-  text-align: center;
 }
 
 .faq-eyebrow {
@@ -8181,8 +8180,6 @@ main section.participate-section {
 
 .industries-header {
   margin: 0 auto 55px;
-
-  text-align: center;
 }
 
 /* =========================================
@@ -8193,7 +8190,6 @@ main section.participate-section {
   display: flex;
 
   align-items: center;
-  justify-content: center;
 
   gap: 14px;
 
@@ -8250,8 +8246,6 @@ main section.participate-section {
 ========================================= */
 
 .industries-header p {
-  max-width: 700px;
-
   margin: 22px auto 0;
 
   color: var(--text-color);
@@ -9071,6 +9065,7 @@ main section.participate-section {
 
 .partners-benefits {
   position: absolute;
+  width: 661px;
   right: 28px;
   bottom: 0;
   left: 0;
@@ -11148,8 +11143,7 @@ main section.participate-section {
   content: "";
 }
 
-.global-platform-copy h2 {
-  max-width: 600px;
+.global-platform-copy2 h2 {
   margin: 0;
   color: #0b2c55;
   font-family: var(--heading-font);
@@ -11158,8 +11152,13 @@ main section.participate-section {
   line-height: 1.02;
   text-transform: uppercase;
 }
-
-.global-platform-copy h2 span {
+.global-map {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.global-platform-copy2 h2 span {
   background: linear-gradient(90deg, #1888e5 0%, #11b7cc 52%, #0ac68e 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -11350,7 +11349,7 @@ main section.participate-section {
   max-width: 390px;
   margin: 0;
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
