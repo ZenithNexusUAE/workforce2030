@@ -11114,6 +11114,7 @@ main section.participate-section {
   grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
   align-items: center;
   gap: 20px;
+  margin: 5% 0;
 }
 
 .global-platform-copy {
@@ -11155,7 +11156,7 @@ main section.participate-section {
 .global-map {
   display: block;
   width: 100%;
-  max-width: 500px;
+  /* max-width: 500px; */
   height: auto;
 }
 .global-platform-copy2 h2 span {
@@ -12584,7 +12585,7 @@ main section.participate-section {
   margin: 0 0 17px;
   color: #506d87;
   font-family: var(--para-font);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -13173,10 +13174,9 @@ main section.participate-section {
   min-height: 48px;
   align-items: center;
   justify-content: center;
-  gap: 9px;
-  padding: 0 17px;
+  padding: 0 24px;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
+  clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
   background: linear-gradient(
     105deg,
     var(--primary-color),
@@ -13188,6 +13188,7 @@ main section.participate-section {
   font-family: var(--para-font);
   font-size: 13px;
   font-weight: 800;
+  text-decoration: none;
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
@@ -14801,6 +14802,14 @@ main section.hybrid-workforce-section {
   border-color: transparent;
   background: linear-gradient(105deg, #159bd5, #20cba9);
   box-shadow: 0 8px 22px rgba(8, 175, 190, 0.24);
+}
+
+.hero-actions .hero-cta[href="./request-invitation.html"],
+.hero-actions .hero-cta[href="./partner-with-us.html"] {
+  padding-right: 27px;
+  padding-left: 27px;
+  border-radius: 0;
+  clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
 }
 
 .hero-cta-primary:hover {
