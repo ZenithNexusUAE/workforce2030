@@ -1953,10 +1953,18 @@ main section:not(.hero-section).is-visible {
   }
 
   .hero-event-details {
-    gap: 7px;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 8px;
+    row-gap: 6px;
+    justify-content: start;
     padding-bottom: 12px;
     font-size: 10px;
     letter-spacing: 0.07em;
+  }
+
+  .hero-event-divider {
+    display: none;
   }
 
   .hero-event-icon {
@@ -7328,6 +7336,10 @@ main section.participate-section {
   box-shadow: 0 3px 10px
     color-mix(in srgb, var(--participate-accent) 10%, transparent);
   font-size: 16px;
+}
+
+.participate-card.card-3 .participate-card-icon {
+  color: color-mix(in srgb, var(--participate-accent) 62%, white);
 }
 
 .participate-card-content {
@@ -12786,14 +12798,14 @@ main section.participate-section {
 .enquiries-banner-content {
   position: relative;
   z-index: 1;
-  width: min(100%, 1050px);
+  /* width: min(100%, 1050px); */
 }
 
 .enquiries-banner-content h2 {
   margin: 0;
   color: #103458;
   font-family: var(--heading-font);
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 900;
   line-height: 1.15;
   text-transform: uppercase;
