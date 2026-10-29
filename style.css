@@ -9515,19 +9515,6 @@ main section.participate-section {
    DIVIDER
 ========================================= */
 
-.join-movement-divider {
-  width: 55px;
-  height: 3px;
-
-  margin: 28px 0;
-
-  background: linear-gradient(
-    90deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
-}
-
 /* =========================================
    EVENT TITLE
 ========================================= */
