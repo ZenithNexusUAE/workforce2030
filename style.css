@@ -12318,13 +12318,17 @@ main section.participate-section {
   color: #fff;
   background: #ff941d;
 }
+.attending-icon-green {
+  color: #fff;
+  background: #2fd000;
+}
 .attending-icon-purple {
   color: #fff;
   background: #7253ef;
 }
 .attending-icon-sky {
   color: #fff;
-  background: #4899ec;
+  background: #073b71;
 }
 .attending-icon-teal {
   color: #fff;
