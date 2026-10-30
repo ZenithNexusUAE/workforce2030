@@ -8313,6 +8313,18 @@ main section.participate-section {
     border-color 0.4s ease;
 }
 
+.industry-card:nth-child(even) {
+  grid-template-rows: 1fr 180px;
+}
+
+.industry-card:nth-child(even) .industry-card-info {
+  grid-row: 1;
+}
+
+.industry-card:nth-child(even) .industry-image {
+  grid-row: 2;
+}
+
 .industry-card:hover {
   transform: translateY(-7px);
 
@@ -8345,7 +8357,7 @@ main section.participate-section {
 
   align-items: center;
 
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 /* =========================================
@@ -8353,15 +8365,16 @@ main section.participate-section {
 ========================================= */
 
 .industry-number {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  min-height: 30px;
   padding: 5px 9px;
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(79, 168, 197, 0.2);
   border-radius: 20px;
   color: var(--primary-color);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(79, 168, 197, 0.08);
   font-family: var(--para-font);
   font-size: 13px;
   font-weight: 900;
