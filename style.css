@@ -3549,8 +3549,6 @@ main section.faq-section {
   color: #102b43;
   font-family: var(--heading-font);
   font-size: clamp(2rem, 4vw, 3.2rem);
-  letter-spacing: -0.045em;
-  line-height: 1.12;
 }
 
 .speakers-section-heading > p {
