@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Kallisto Heavy";
+  src: url("./font/Kallisto_Heavy.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
 :root {
   --primary-color: #1686e7;
   --secondary-color: #09c878;
@@ -13704,6 +13712,8 @@ main section.participate-section {
 }
 
 .hero-content h1 .hero-title-line:first-child {
+  font-family: "Kallisto Heavy", var(--heading-font);
+  font-weight: 900;
   white-space: nowrap;
 }
 
