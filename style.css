@@ -369,10 +369,7 @@ a {
 }
 
 .hero-content h1 em {
-  background: linear-gradient(100deg, #19bdf2 0%, #24d7bb 60%, #4be3ae 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #fff;
   font-style: normal;
 }
 
@@ -13715,6 +13712,10 @@ main section.participate-section {
   font-family: "Kallisto Heavy", var(--heading-font);
   font-weight: 900;
   white-space: nowrap;
+  background: linear-gradient(100deg, #19bdf2 0%, #24d7bb 60%, #4be3ae 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 @media (max-width: 575.98px) {
