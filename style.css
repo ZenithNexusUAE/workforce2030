@@ -13595,7 +13595,7 @@ main section.participate-section {
 }
 
 .enquiries-ip-line span {
-  height: 2px;
+  height: 0px;
   background: linear-gradient(
     90deg,
     transparent,
