@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const countdown = document.getElementById("heroCountdown");
   if (countdown) {
-    const eventDate = new Date("2027-01-27T00:00:00+04:00");
+    const eventDate = new Date("2027-04-14T00:00:00+04:00");
     const deadline = eventDate.getTime();
 
     const countdownParts = {
