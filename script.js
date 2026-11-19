@@ -210,8 +210,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ["Dr. Mira Zakharia", "General Manager Human Resources", "Rotana Hotels", "Dr. Mira Zakharia.png", "https://www.linkedin.com/in/dr-mira-zakharia-6a0a13122/", "speaker-tone-sky"],
         ["Malvika Varma", "Head - Talent Development & Culture", "PRIME Health", "Malvika Varma.png", "https://www.linkedin.com/in/malvika-varma-3586538/", "speaker-tone-rose"],
         ["Samar Samy", "Regional Human Resources Director - South Cluster", "Gulf Cryo", "Samar Samy.jpg", "https://www.linkedin.com/in/samar-msamy/", "speaker-tone-green"],
-        ["Khalid Ahmad Ahli", "Executive Director Human Capital and General Admin", "Ports, Customs & Free Zone Corporation (PCFC)", "khalid-ahli.jpg", "https://www.linkedin.com/in/khalid-ahli-chartered-fcipd-09b72a82/", "speaker-tone-blue"],
-        ["Kinan A. Bahnassi", "Senior Adviser to the Secretary-General | Policy & Strategy", "Education, Human Development, and Community Development Council", "kinan-a.jpg", "https://www.linkedin.com/in/kinan-bahnassi/", "speaker-tone-teal"],
+        ["Khalid Ahmad Ahli", "Executive Director Human Capital and General Admin", "Ports, Customs & Free Zone Corporation (PCFC)", "Khalid Ahmad Ahli.jpg", "https://www.linkedin.com/in/khalid-ahli-chartered-fcipd-09b72a82/", "speaker-tone-blue"],
+        ["Kinan A. Bahnassi", "Senior Adviser to the Secretary-General | Policy & Strategy", "Education, Human Development, and Community Development Council", "Dr. Kinan Bahnassi.png", "https://www.linkedin.com/in/kinan-bahnassi/", "speaker-tone-teal"],
       ];
 
       homeSpeakersWrapper.innerHTML = speakers
