@@ -570,6 +570,7 @@ a {
   align-items: center;
   justify-content: center;
 
+  display: none;
   min-height: 48px;
   padding: 13px 24px;
 
@@ -12378,6 +12379,80 @@ main section.participate-section {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
   align-items: stretch;
+}
+
+.home-speakers-swiper {
+  width: 100%;
+  padding: 4px 0 8px;
+}
+
+.home-speakers-swiper .swiper-slide {
+  height: auto;
+}
+
+.home-speaker-card {
+  height: 100%;
+  text-decoration: none;
+}
+
+.home-speaker-card .speaker-card-portrait {
+  height: 260px;
+  min-height: 260px;
+}
+
+.home-speaker-card .speaker-card-content {
+  flex: 1 1 auto;
+}
+
+.home-speakers-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.home-speakers-prev,
+.home-speakers-next {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border: 1px solid #cae4ec;
+  border-radius: 50%;
+  color: #12365f;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home-speakers-prev:hover,
+.home-speakers-next:hover {
+  border-color: #16aab4;
+  color: #fff;
+  background: #16aab4;
+}
+
+.home-speakers-pagination {
+  display: flex;
+  min-width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-speakers-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background: #9ab8c6;
+  opacity: 1;
+}
+
+.home-speakers-pagination .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 999px;
+  background: #16aab4;
 }
 
 .stage-speaker-card {
